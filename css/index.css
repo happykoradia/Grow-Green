@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  
+}
+
+.flex-item-left {
+  
+  padding: 10px;
+  flex: 50%;
+  align:left;
+}
+.logo{
+	padding-left:15px;	
+	height: auto;
+	width : 100px;
+}
+.flex-item-right {
+ 
+  padding: 10px;
+  padding-top:6px;
+  padding-right:25px;
+  flex: 50%;
+  text-align: right;
+  
+}
+
+.button {
+background-color: #51C159;
+  color: white;
+  padding:10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:5px;
+  border:none;
+  height:45px;
+  width:125px;
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: normal;
+   line-height: 10px; 
+}
+.button2 {
+	background-color: #51C159;
+	border:none;
+	  color: white;
+	  padding:12px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  border-radius:5px;
+	  height:45px;
+	  width:160px;
+	  font-family: poppins;
+	  font-size: 19px;
+	  font-weight: normal;
+	   line-height: 10px; 
+}
+.button1 {
+	background-color:white;
+	color:black;
+	padding: 12px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border:none;
+	font-weight: normal;
+	height:52px;
+	font-family: Poppins;
+	font-size: 20px;
+}
+.button1:hover{
+text-decoration:underline;
+}
+.button2:hover {
+  box-shadow: 0 10px 10px 0 rgba(89,191,97,0.5);
+}
+.button:hover {
+  box-shadow: 0 10px 10px 0 rgba(89,191,97,0.5);
+}
+#text{
+	font-family:Poppins;
+	font-size:80px;
+	text-align:left;
+	margin:0;
+	line-height:75px;
+}
+#text1{
+	font-family:Poppins;
+	font:normal 600 14px poppins;
+	font-size:25px;
+	text-align:left;
+	
+}
+.card{
+padding-left:50px;
+padding-top:80px;
+}
+div.container{
+
+  height:500px;
+  width:660px ;
+  color: soliblack;
+  font-family: poppins;
+  font-size: 30px;
+}
+.image{
+		padding-top:20px;
+	padding-left:75px;
+	width:100%;
+	max-width: auto;
+	height:100%;
+}
+
+ 
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }  
+}
+
+@media(min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.container{
+    font-size: 30px;
+  }
+}

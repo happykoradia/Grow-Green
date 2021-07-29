@@ -1,0 +1,88 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #51C159;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #17202A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:poppins;
+}
+
+.navbar a:hover {
+  background: #D5F5E3;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+* {
+  box-sizing: border-box;
+}
+.btn{
+	background-color:#51C159 ;
+	border-radius: 3px;
+	border:none;
+	color: #ffffff; 
+	text-align: center;
+	font-family: poppins;
+	margin-top:7px;
+	width: 330px;
+	height:40px;
+	font-size:18px;
+}
+.btn:hover {
+  box-shadow: 0 10px 10px 0 rgba(89,191,97,0.5);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;
+margin-top:80px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}

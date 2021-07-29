@@ -1,0 +1,105 @@
+.back-arrow{
+	padding-left:30px;
+	padding-top:30px;
+}
+.container{
+	/*padding-top:25px;
+	padding-right:400px;
+	padding-left:450px;*/
+	
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.card {
+  border-radius: 8px;
+  background-color: #ffffff;
+  width: 400px;
+  height: 400px;
+  
+}
+form {
+  text-align: center;
+}
+.field{
+  padding: 10px 15px;
+  margin-bottom: 24px;
+  border-radius: 6px;
+  border:none;
+  text-align: left;
+  color: #000000;
+  font-family: poppins;
+  width: 300px;
+  font-size: 16px;
+  transition: border .2s, background-color .2s;
+  background-color: #f0f0f0;
+}
+.field1{
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  border:none;
+  text-align: left;
+  color: #000000;
+  font-family: poppins;
+  width: 300px;
+  font-size: 16px;
+  transition: border .2s, background-color .2s;
+  background-color: #f0f0f0;
+}
+h1{
+	margin-bottom: 25px;
+	text-align:center;
+	font-family: poppins;
+	font-size: 45px;
+}
+.fgt{
+	padding-left:190px;
+	font-size:16px;
+	font-family:poppins;
+	
+}
+
+.btn{
+	background-color:#51C159 ;
+	border-radius: 3px;
+	border:none;
+	color: #ffffff; 
+	text-align: center;
+	font-family: poppins;
+	margin-top:8px;
+	width: 330px;
+	height:45px;
+	font-size:18px;
+	
+}
+.btn:hover {
+  box-shadow: 0 10px 10px 0 rgba(89,191,97,0.5);
+}
+.pass-link{
+	margin-top:24px;
+	font-size:20px;
+	text-align:center;
+	font-family:poppins;
+}
+a:link{
+	color:#51C159;
+	text-decoration: none;
+}
+a:hover {
+  color:#51C159;
+}
+a:visited{
+	color:#51C159;
+}
+@media screen and (max-width: 600px) {
+  div.container{
+    padding-top:12px;
+	padding-right:100px;
+	padding-left:90px;
+}
+div.carda,a{
+	 width: 150px;
+	 height: 150px;
+	 font-size:auto;
+}

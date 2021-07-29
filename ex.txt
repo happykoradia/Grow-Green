@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" href="C:/Users/Dell/Desktop/wta/css/index1.css">
+</head>
+<body>
+<div class="horizontal-scroll-wrapper squares">
+  <div>item 1</div>
+  <div>item 2</div>
+  <div>item 3</div>
+  <div>item 4</div>
+  <div>item 5</div>
+  <div>item 6</div>
+  <div>item 7</div>
+  <div>item 8</div>
+</div>
+</body>
+</html>

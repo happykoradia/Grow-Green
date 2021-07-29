@@ -1,0 +1,29 @@
+.row img{
+    width:300px;
+    float:left;
+    height:auto !important;
+}
+.container{
+    text-align: justify !important;
+    width:100%;
+}
+.row{
+    margin-top:140px;
+	margin-left:35px;
+	margin-right:35px;
+}
+p{
+    font-family:poppins !important;
+    font-size: 16px;
+	margin-left:15px;
+	padding-left:15px;
+}
+h1{
+font-family: poppins;
+font-size:35px;
+text-align:center;
+color:black;
+margin:0 !important;
+padding:0!important;
+padding-left:15px;
+}
